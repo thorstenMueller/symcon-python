@@ -1,4 +1,4 @@
-# python-symcon
+# symcon
 
 This python module is for api communication with smarthome software ip-symcon (https://www.symcon.de).
 > Requires at minimum python 3.6 and ip-symcon 3.0. Some functions may require newer versions.
@@ -86,4 +86,4 @@ print(connection.getChildsList(20147))
 ```
 
 ## Release history
-* 0.1.0: Initial release
+* 0.0.1: Initial release
