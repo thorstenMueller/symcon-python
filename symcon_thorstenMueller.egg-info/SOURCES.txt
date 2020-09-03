@@ -1,0 +1,7 @@
+README.md
+setup.py
+symcon/__init__.py
+symcon_thorstenMueller.egg-info/PKG-INFO
+symcon_thorstenMueller.egg-info/SOURCES.txt
+symcon_thorstenMueller.egg-info/dependency_links.txt
+symcon_thorstenMueller.egg-info/top_level.txt

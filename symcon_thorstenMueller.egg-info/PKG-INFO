@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: symcon-thorstenMueller
+Version: 0.0.1
+Summary: Python module for ip-symcon api calls
+Home-page: https://github.com/thorstenMueller/
+Author: Thorsten Mueller
+Author-email: MrThorstenM@gmx.net
+License: UNKNOWN
+Description: # Python package to access ip-symcon json rpc api
+        
+        TODO
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
