@@ -11,7 +11,7 @@ setuptools.setup(
     description="Python module for ip-symcon api calls",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/thorstenMueller/",
+    url="https://github.com/thorstenMueller/symcon-python/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
