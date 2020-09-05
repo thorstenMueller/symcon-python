@@ -4,7 +4,7 @@ import json
 import requests
 
 # needs to be in sync with setup.py and documentation (conf.py, branch gh-pages)
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 class Symcon:
     '''Connects to IP-Symcon instance via json rpc request'''

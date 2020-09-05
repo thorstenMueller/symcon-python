@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="symcon", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Thorsten Mueller",
     author_email="MrThorstenM@gmx.net",
     description="Python module for ip-symcon api calls",
@@ -19,8 +19,9 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        'requests'
+    ],
     test_suite='nose.collector',
     tests_require=['nose'],
-
 )
-

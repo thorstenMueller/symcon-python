@@ -3,14 +3,11 @@
 This python module is for api communication with smarthome software ip-symcon (https://www.symcon.de).
 > Requires at minimum python 3.6 and ip-symcon 3.0. Some functions may require newer versions.
 
-Following errors on api call will throw an exception:
-* http return code <> 200
-* error message received by ip-symcon (eg. requested object not found)
 
+## Codebase
+Sourcecode is available on my github page (https://github.com/thorstenMueller/symcon-python/)
 
 ## Installation
-See [PyPI page](https://pypi.python.org/pypi?:action=display&name=symcon) for details.
-
 ```bash
 pip install symcon
 ```
@@ -85,5 +82,12 @@ print(connection.getChildsList(20147))
 ["{\"ParentID\": 14788, \"ObjectID\": 47732, \"ObjectType\": 2, \"ObjectIdent\": \"AstronomicTwilightEnd\", \"ObjectName\": \"Astronimoc twilight end\", \"ObjectInfo\": \"\", \"ObjectIcon\": \"\", \"ObjectSummary\": \"\", \"ObjectPosition\": 8, \"ObjectIsReadOnly\": true, \"ObjectIsHidden\": false, \"ObjectIsDisabled\": false, \"ObjectIsLocked\": false, \"HasChildren\": false, \"ChildrenIDs\": []}"]
 ```
 
+## Error handling
+Following errors on api call will throw an exception:
+* http return code <> 200
+* error message received by ip-symcon (eg. requested object not found)
+
+
 ## Release history
-* 0.0.1: Initial release
+* 2020-09-03:   0.0.1: Initial release
+* 2020-09-05:   0.0.2: Added dependency (requests) in setup file for automatic resolve
