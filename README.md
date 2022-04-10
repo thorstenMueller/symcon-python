@@ -1,3 +1,5 @@
+# This repository will not be maintained actively any more!
+
 # symcon
 
 This python module is for api communication with smarthome software ip-symcon (https://www.symcon.de).
